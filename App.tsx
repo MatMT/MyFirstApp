@@ -8,6 +8,10 @@ import { CounterM3Screen } from "./src/presentation/screens/CounterM3Screen"
 import Icon from "@react-native-vector-icons/material-design-icons"
 import { BoxObjectModelScreen } from './src/presentation/screens/BoxObjectModelScreen';
 import DimensionsScreen from "./src/presentation/screens/DimensionsScreen"
+// import { GridScreen } from "./src/presentation/screens/GridScreen"
+import { PositionScreen } from "./src/presentation/screens/PositionScreen"
+import { FlexBox } from "./src/presentation/screens/FlexBox"
+import { HomeWorkScreen } from "./src/presentation/screens/HomeWorkScreen"
 
 export const App = () => {
   return (
@@ -25,7 +29,11 @@ export const App = () => {
       {/* <SafeAreaView style={{height: 300}}> */}
           {/* <CounterM3Screen /> */}
           {/* <BoxObjectModelScreen /> */}
-          <DimensionsScreen />
+          {/* <DimensionsScreen /> */}
+          {/* <GridScreen /> */}
+          {/* <PositionScreen /> */}
+          {/* <FlexBox /> */}
+          <HomeWorkScreen />
       </SafeAreaView>
 
     </PaperProvider>
